@@ -1,0 +1,36 @@
+.notfound .notfound-404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 230px;
+    margin: 0px;
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url('../images/error/bg.jpg') no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+a,a:hover,a:active,a:focus{
+    text-decoration: none;
+}
+.parent_category>a{
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.parent_category>a:hover{
+    color: #100f0f;
+}
+.child_category>a{
+    color: #063864;
+}
+.child_category>a:hover{
+    color: #061d39;
+}
